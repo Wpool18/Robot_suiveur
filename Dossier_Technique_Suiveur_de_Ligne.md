@@ -664,14 +664,14 @@ Quand les **deux capteurs** voient du noir simultanément, le robot s'arrête. O
 
 ### D.3 Phases du projet (alignées sur les séances)
 
-| Séance | Phase | Tâches | Resp. | S1 | S2 | S3 | S4 | S5 | S6 | S7 |
-|--------|-------|--------|-------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| | **Séances 1 & 2 — Cadrage & Analyse du besoin** | | | | | | | | | |
+| Séance | Tâche | Resp. | S1 | S2 | S3 | S4 | S5 | S6 | S7 |
+|--------|-------|-------|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| | **Séances 1 & 2 — Cadrage & Analyse du besoin** | | | | | | | | |
 | S1 | Constitution équipe + choix du sujet | Tous | ██ | | | | | | |
 | S1 | Cadrage et planning du projet | Tous | ██ | | | | | | |
 | S1-S2 | Définition & analyse du besoin | Tous | ██ | ██ | | | | | |
 | S2 | Recherche composants & datasheets | Tous | | ██ | | | | | |
-| | **Séances 3 & 4 — Architecture & Dimensionnement** | | | | | | | | | |
+| | **Séances 3 & 4 — Architecture & Dimensionnement** | | | | | | | | |
 | S3 | Détermination architecture globale | M2 + M3 | | | ██ | | | | |
 | S3-S4 | Définition schéma électronique complet | M2 + M3 | | | ██ | ██ | | | |
 | S3 | Conception mécanique châssis | M3 | | | ██ | | | | |
@@ -679,7 +679,7 @@ Quand les **deux capteurs** voient du noir simultanément, le robot s'arrête. O
 | S3-S4 | Choix et dimensionnement AOP (LM393) | M2 | | | ██ | ██ | | | |
 | S3-S4 | Choix et dimensionnement pont en H (L293D) | M3 | | | ██ | ██ | | | |
 | S4 | Commande composants | Tous | | | | ██ | | | |
-| | **Séances 5 & 6 — Prototypage & Validation** | | | | | | | | | |
+| | **Séances 5 & 6 — Prototypage & Validation** | | | | | | | | |
 | S5 | Montage capteurs IR sur breadboard | M1 | | | | | ██ | | |
 | S5 | Montage AOP comparateur + calibration seuil | M2 | | | | | ██ | | |
 | S5 | Montage pont en H + moteurs | M3 | | | | | ██ | | |
@@ -688,7 +688,7 @@ Quand les **deux capteurs** voient du noir simultanément, le robot s'arrête. O
 | S6 | Tests de suivi de ligne | Tous | | | | | | ██ | |
 | S6 | Calibration finale + ajustements | M1 + M2 | | | | | | ██ | |
 | S5-S6 | Rédaction documentation / dossier | M2 | | | | | ██ | ██ | |
-| | **Séance 7 — Audit final** | | | | | | | | | |
+| | **Séance 7 — Audit final** | | | | | | | | |
 | S7 | Tests finaux sur piste devant jury | Tous | | | | | | | ██ |
 | S7 | Présentation / soutenance | Tous | | | | | | | ██ |
 
